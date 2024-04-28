@@ -1,0 +1,248 @@
+#tagline{
+    font-family: 'Vaulto', sans-serif;
+    color: darkblue;
+    font-size: 45px;
+    transform: scaleY(0.8);
+    max-width: 20%;
+    white-space: nowrap;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+p{
+    font-family: 'Bahnschrift', serif;
+    display: flex;
+    font-stretch: condensed;
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-right: 650px;
+}
+
+#para1{
+    margin-top: -20px;
+}
+
+
+#graphic1{
+    position: absolute;
+    top: 8%;
+    left: 55%;
+    width: 30%;
+    height: auto;
+}
+
+#readmore a{
+    background-color: #FDF0EA; 
+    padding: 15px; 
+    border-radius: 20px; 
+    border: none;
+    width: 100px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-family: "Bahnschrift", serif;
+    font-stretch: condensed;
+    color: darkblue;
+}
+
+#cotw {
+    font-size: 33px;
+    transform: scaleY(1.0);
+    font-family: 'Vaulto', sans-serif;
+    color: darkblue;
+    text-indent: 70px;
+}
+
+#stock1{
+    width: 550px;
+    height: 370px;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+    position: relative;
+    left: 70px;
+    
+
+}
+
+#para2 {
+    font-size: 24px;
+    text-align: justify-all;
+    background-color: azure;
+    padding: 54px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    position: absolute;
+    left: 50px; /* Adjust the left position as needed */
+    top: 90%;
+    transform: translateX(85%);
+}
+
+#cotwbutton{
+    background-color: rgba(249, 255, 255, 0.5);
+    padding: 20px;
+    width: 30%;
+    border-radius: 70px;
+    white-space: pre;
+    color: darkblue;
+    position: absolute;
+    bottom: -280px;
+    left: 65px;
+    font-size: 18px;
+}
+
+#cotwbutton a{
+    color: rgb(0, 0, 112);
+    text-decoration: none;
+    
+}
+
+#head1{
+    font-size: 27px;
+    transform: scaleY(1.0);
+    font-family: 'Vaulto', sans-serif;
+    color: darkblue;
+    text-indent: 30%;
+}
+
+.homecourses {
+    overflow: hidden; 
+    white-space: nowrap;
+    position: relative;
+
+}
+
+.marquee {
+    display: inline-block; 
+    animation: 10s slide linear infinite; 
+}
+
+.marquee img {
+    width: 30%;
+    margin-right: 20px;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
+
+#homecourseimg1{
+    width: 28%;
+    height: 283px;
+}
+
+#homecourseimg2{
+    width: 31.8%;
+    height: auto;
+}
+
+#homecourseimg3{
+    width: 35%;
+    height: 25%;
+}
+
+
+
+#communication{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Vaulto', sans-serif;
+    color: darkblue;
+    transform: scaleY(0.8);
+    text-align: center;
+
+}
+
+#drivingforce{
+    font-family: 'Bahnschrift', serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: darkblue;
+}
+
+#para3{
+    color: darkblue;
+    font-family: 'Bahnschrift', serif;
+    margin-right: 50px;
+    white-space: pre;
+    font-size: 20px;
+    text-indent: 110px;
+}
+
+.messagebox{
+    background-color: beige;
+    padding: 24px 16px;
+    border-radius: 75px;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+.messagebox h3{
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    font-family: 'Vaulto', sans-serif;
+    font-size: 24px;
+    transform: scaleY(1.0);
+}
+
+.messagebox p{
+    font-family: 'Bahnschrift', serif;
+    text-align: center;
+    text-indent: 30px;
+    font-size: 20px;
+    margin-right:30px ;
+}
+
+.messagebox input[type="text"]{
+    width: 100%;
+    height: auto;
+    padding-bottom: 150px;
+    border-radius: 30px;
+}
+
+.messagebox a{
+    font-family: 'Bahnschrift', sans-serif;
+    color: darkblue;
+    position: relative;
+    left: 450px;
+    bottom: 35px;
+    text-decoration: none;
+}
+
+.messagebox a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+#homefooter{
+    list-style-type: none;
+    display: inline-flex;
+    text-align: center;
+
+}
+
+#homefooter a{
+    font-family: 'Bahnschrift', sans-serif;
+    color: darkblue;
+    text-decoration: none;
+    margin-left: 10px;
+    position: relative;
+    left: 515px;
+
+}
+
+#homefooter a:hover{
+    font-family: 'Bahnschrift', sans-serif;
+    color: darkblue;
+    text-decoration: none;
+}
+
+#para4{
+    color: darkblue;
+    position: relative;
+    left: 540px;
+}

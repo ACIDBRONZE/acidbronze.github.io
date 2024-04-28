@@ -1,0 +1,145 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 105%;
+    height: 100%;
+    background-image: url(../image/stock1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    filter: blur(3px); 
+    z-index: -1;
+    
+}
+
+.videocontainer video{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    overflow: hidden;
+    z-index: 1;
+    height: 300px;
+    width: 530px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    margin: 0; 
+    padding: 0; 
+}
+
+h1{
+    position: absolute;
+    right: 18.5%;
+    top: 152.4px;
+    padding: 63px;
+    background-color: rgba(224, 231, 238, 0.5);
+    color: darkblue;
+    font-family: 'Bahnschrift', sans-serif;
+    transform: scaleY(1.2);
+    font-size: 34.5px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+p{
+    color: darkblue;
+    font-family: 'Bahnschrift', sans-serif;
+    position: absolute;
+    top: 470px;
+    margin-left: 80px;
+    margin-right: 100px;
+    text-indent: 110px;
+    text-align: justify;
+}
+
+h2{
+    font-family: 'Vaulto', serif;
+    color: darkblue;
+    text-indent: 50px;
+    position: absolute;
+    top: 600px;
+}
+
+.coursebuttonscontainer {
+    position: absolute;
+    top: 700px;
+    left: 30px;
+}
+
+.coursebuttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px; 
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+}
+
+.course h3 {
+    padding: 20px;
+    width: 85.5%;
+    background-color: rgb(250, 234, 214);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: darkblue;
+    font-family: 'Bahnschrift', sans-serif;
+    white-space: pre;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.course a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.course img {
+    width: 95%;
+    height: auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.course:nth-child(2) img {
+    width: 93%; /* Adjust the width of the second course button */
+}
+
+.course:nth-child(3) img {
+    width: 93%; /* Adjust the width of the third course button */
+}
+
+.course:nth-child(2) h3, .course:nth-child(3) h3 {
+    width: 83.7%;
+}
+
+footer ul{
+    position: relative;
+    top: 90em;
+    left: 31.5em;
+    list-style-type: none;
+    display: inline-flex;
+    text-align: center;
+    
+}
+
+footer a{
+    font-family: 'Bahnschrift', sans-serif;
+    color: darkblue;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+footer p{
+    position: relative;
+    top: 90em;
+    left: 25em;
+}

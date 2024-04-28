@@ -1,0 +1,85 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 20px;
+  background: linear-gradient(to bottom,#F2AA84, rgba(255, 105, 180, 0)); 
+  position: fixed;
+  top: 0;
+  flex-wrap: nowrap;
+  height: 18vh;
+  z-index: 1000;
+  margin-left: -10px;
+}
+.left {
+  display: flex;
+  align-self: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+figure {
+  margin: 0;
+  align-content: center;
+}
+
+img {
+  margin: 0;
+  width: 70px;
+  height: 70px;
+}
+.text-logo {
+  display: flex;
+  margin-bottom: 15px;
+  row-gap: 0;
+  align-items: center;
+
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 70vh;
+  margin-right: 5%;
+  margin-left: 70%;
+  
+}
+nav li {
+  list-style: none;
+  display: block;
+  margin-right: 30px;
+  font-family: 'Vaulto', sans-serif;
+  font-weight: 800;
+}
+nav li a {
+  text-decoration: none;
+  align-items: center;
+  color: darkblue;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.search-box {
+  margin-left: 5%;
+  width: 60%;
+  align-items: center;
+}
+input[type="text"] {
+  border-radius: 20px;
+  padding: 15px;
+  border: none;
+  width: 150%;
+  
+}
+
+#CommuPactimg{
+  width: 300px;
+  height: auto;
+  position: relative;
+  top: 10px;
+}
+
+.textlogo {
+  display: flex; 
+  align-items: center; 
+  white-space: nowrap;
+}

@@ -1,0 +1,241 @@
+body{
+    background-image:radial-gradient(circle at right,  #F28F84,#F2AA84,#FFEEEB);
+   
+   }
+
+  p{
+    font-family: 'Bahnschrift', serif;
+    color: darkblue;
+    font-size: 16.5px;
+    text-align: justify;
+  }
+
+  #img1{
+    width: 30%;
+    height: auto;
+    position:absolute;
+    bottom: 5px;
+    left: 130px;
+  }
+
+  #img2{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    bottom: -530px;
+    left: 250px;
+  }
+
+  #commu1{
+    width: 35%;
+    height: auto;
+    position: absolute;
+    left: 585px;
+    top: 130px;
+  }
+
+  .para1{
+    text-indent: 35px;
+    margin-right: 630px;
+    margin-left: 250px;
+    position: relative;
+    left: 370px;
+    top: 230px;
+  }
+
+  h6{
+    font-family: 'Vaulto', sans-serif;
+    display: flex;
+    font-weight: 800;
+    color: darkblue;
+    position: absolute;
+    top: 187%;
+    left: 25.5%;
+  }
+
+  #marquee1{
+    width: 150%;
+    height: auto;
+    position: absolute;
+    top: 200%;
+    right: 1%;
+
+  }
+
+  #marquee2{
+    width: 150%;
+    height: auto;
+    position: absolute;
+    top: 265%;
+    right: 1%;
+  }
+
+  #commu2{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 225%;
+    left: 16.7%;
+  }
+
+  #para2{
+    text-indent: 215px;
+    margin-right: 200px;
+    margin-left: -400px;
+    position: absolute;
+    top: 223.7%;
+    left: 40%;
+  }
+
+  #para3{
+    text-indent: 100px;
+    margin-right: 200px;
+    margin-left: -400px;
+    position: absolute;
+    top: 243%;
+    left: 40%;
+  }
+
+  #commu3{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 290%;
+    left: 16.7%;
+  }
+
+#para4{
+  position: absolute;
+  top: 289%;
+  left: 26.3%;
+}
+
+  #commu4{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 293.7%;
+    left: 10%;
+  }
+
+#para5{
+  position: absolute;
+  top: 292.7%;
+  left: 22%;
+  text-indent: 115px;
+  margin-right: 210px;
+  margin-left: -150px;
+}
+
+#para6{
+  position: absolute;
+  top: 305.7%;
+  left: 22%;
+  text-indent: 88.5px;
+  margin-right: 210px;
+  margin-left: -150px;
+}
+
+#homefooter{
+  list-style-type: none;
+  display: inline-flex;
+  text-align: center;
+
+}
+
+#homefooter a{
+  font-family: 'Bahnschrift', sans-serif;
+  color: darkblue;
+  text-decoration: none;
+  margin-left: 10px;
+  position: relative;
+  left: 505px;
+  top: 1650px;
+}
+
+#homefooter a:hover{
+  font-family: 'Bahnschrift', sans-serif;
+  color: darkblue;
+  text-decoration: none;
+}
+
+#para7{
+  position: relative;
+  top: 1630px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*Navigation Bar*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    flex-wrap: nowrap;
+    height: 15vh;
+    z-index: 1000;
+    margin-left: -10px;
+  }
+
+  #searchbar{
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+    width: 30%;
+    margin-left: 5%;
+    position: relative;
+    top: 47px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100vh;
+    margin-right: 5%;
+    margin-left: 70%;
+    position: relative;
+    left: 170px;
+    
+  }
+  nav li {
+    list-style: none;
+    display: block;
+    margin-right: 30px;
+    font-family: 'Vaulto', sans-serif;
+    font-weight: 800;
+  }
+  nav li a {
+    text-decoration: none;
+    align-items: center;
+    color: darkblue;
+    font-size: 13px;
+    white-space: nowrap;
+  }

@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+ background-image:radial-gradient(circle at center,  #F28F84,#F2AA84,#FFEEEB);
+    overflow-y: hidden;
+}
+
+#logo{
+    width: 10%;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#signinbutton{
+    
+    width: 300px;
+    height: auto;
+}
+
+form{
+    position: relative;
+    bottom: 70px;
+    width: 500px; 
+    margin: -20px auto; 
+    padding: 30px 90px; 
+    background-color: antiquewhite;
+    text-align: center; 
+    border-radius: 20px;
+}
+
+form img{
+    width: 70px;
+    height: auto;
+}
+
+form input{
+    border-radius: 20px;
+    width: 70%;
+    height: 30px;
+}
+
+button{
+    margin-top: 10px; 
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Bahnschrift', sans-serif;
+}

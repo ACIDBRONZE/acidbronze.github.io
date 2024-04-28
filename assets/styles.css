@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+body{
+ background-image:radial-gradient(circle at left,  #F28F84,#F2AA84,#FFEEEB);
+
+}
+
+.sidenav{
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 110px 15px 30px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    font-family: 'Bahnschrift', sans-serif;
+    transition: width 0.2s;
+    overflow-y: auto;
+}
+
+.unitname{
+    list-style-type: none;
+    display: none;
+
+}
+
+.lessons ul{
+cursor: pointer;
+text-align: center;
+margin: 0;
+padding: 0;
+display: none;
+}
+
+.lessons li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block; 
+    padding-left: 20px; 
+    background-repeat: no-repeat;
+}
+
+.lessons li {
+    list-style-type: none; 
+}
+
+.lessons li.active a {
+    background-image: url(/image/viewed.png);
+}
+
+.lessons li:not(.active) a {
+    background-image: url(/image/unviewed.png);
+}
+
+/*SIDEBAR HOVER*/
+.sidenav:hover{
+    width: 20%;
+}
+
+.sidenav:hover .unitname{
+    display: inline-block;
+}
+
+.sidenav:hover .lessons ul{
+    display: inline-block;
+}
+
+.sidenav:hover .lessons li a:hover{
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid black;
+    transition: top 0.2s ease, left 0.2s ease;
+    position: absolute;
+    top: 17em;
+    left: 55px;
+  }
+  .sidenav:hover .arrow {
+    transform: rotate(180deg);
+    top:17em;
+    left: calc(55px + 10em);
+  }
+  

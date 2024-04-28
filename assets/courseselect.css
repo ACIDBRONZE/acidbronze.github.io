@@ -1,6 +1,11 @@
+html{
+    height: -webkit-fill-available;
+}
+
 body {
     position: relative;
     overflow-x: hidden;
+    height: -webkit-fill-available;
 }
 
 body::before {
